@@ -12,7 +12,7 @@ export default {
   component: TitleH1,
   decorators: [
     (Story) => (
-      <div style={{ margin: "3em" }}>
+      <div style={{ margin: "2rem 0" }}>
         <Story />
       </div>
     ),
