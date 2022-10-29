@@ -1,0 +1,120 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+import ColorTile from "./ColorTile.js";
+
+<Meta title="Styleguide" />
+
+<style>
+  {`
+    .sbdocs-wrapper {
+        background-color:#000000;
+        color: #FFF;
+    }
+
+    .sbdocs-h1, .sbdocs-p, .sbdocs-h2, .sbdocs-h3 {
+        color: #9b9b9b;
+    }
+
+    .sbdocs-h1 {
+        margin-bottom: 2rem;
+        
+    }
+
+
+    hr {
+        margin:0;
+        width: 100%;
+        border-top: 1px solid #656565 !important;
+        margin-bottom: 2rem;
+    }
+
+    hr.section {
+        margin:0;
+        width: 100%;
+        border-top: 1px solid #EDEDED !important;
+        margin-bottom: 2rem;
+    }
+
+
+
+    .color_tile {
+        width: 8rem;
+        height: 8rem;
+        border: 1px solid #EDEDED
+    }
+
+    .flex_col {
+        gap:1rem;
+        align-items: center;
+    }
+
+    .flex_row{
+        margin-bottom: 4rem;
+    }
+
+    .flex_col p {
+        font-size: 1.2rem;
+    }
+`}
+</style>
+
+# Colours
+
+<div className="flex_row margin_bottom_default">
+  <ColorTile color="rgba(200, 200, 255, 0.5)">Primary</ColorTile>
+  <ColorTile color="rgba(200, 200, 255, 0.8)">Primary hover</ColorTile>
+  <ColorTile color="#FFF">Secondary</ColorTile>
+  <ColorTile color="#ededed">Secondary hover</ColorTile>
+  <ColorTile color="#000">Background</ColorTile>
+</div>
+
+<hr className="section" />
+
+# Typography
+
+## Heading large
+
+<Story id="title-h1--default-view" />
+
+<hr />
+
+## Heading Medium
+
+<Story id="title-h2--default" />
+
+<hr />
+
+## Heading Small
+
+<Story id="title-h3--default-view" />
+
+<hr />
+
+## Parargraph left align
+
+<Story id="paragraph--left-align" />
+
+<hr />
+
+## Parargraph center align
+
+<Story id="paragraph--centered" />
+
+<hr className="section" />
+
+# Motion
+
+## Title animation
+
+<Story id="title-h2--animated-glow" />
+
+## Character carousel
+
+<Story id="motion-characters--default" />
+
+<hr />
+
+## Parter carousel
+
+<Story id="motion-partners--default" />
+
+<hr />
