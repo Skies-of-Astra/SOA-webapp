@@ -17,7 +17,7 @@ export default {
           padding: "2rem",
           display: "flex",
           margin: "auto",
-          width: "700px",
+          maxWidth: "700px",
           position: "relative",
           marginBottom: "4rem",
         }}
