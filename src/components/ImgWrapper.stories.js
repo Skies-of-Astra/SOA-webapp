@@ -46,3 +46,12 @@ export const ParallaxBackground = {
     //👇 The args you need here will depend on your component
   },
 };
+
+export const FloatingAnimation = {
+  args: {
+    cssClassDiv: "lost_animation",
+    cssClassImg: "width-100",
+    src: "assets/img_lucid_lost.png",
+    //👇 The args you need here will depend on your component
+  },
+};

@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { CreateUniqueId } from "../hooks/UniqueID";
 
 import LightBoxComp from "./LightBoxComp";
 
@@ -11,12 +11,12 @@ const LightBoxChars = (props) => {
       url: "assets/img_nighflyer.png",
       title: "Nightflyer",
       content1:
-        "These are thrill-seekers who&#39ve learned night-flying, the ability to dream-share and travel the Astral Skies where they discover the city of Astra, a safe haven for adventure.",
+        "These are thrill-seekers who've learned night-flying, the ability to dream-share and travel the Astral Skies where they discover the city of Astra, a safe haven for adventure.",
       content2:
         "These Nightflyers come from multiple timelines far and wide, the past and far future looking for an escape from their boring lives. They're ready to embody who they want to be and come into the world as their own.",
       encyclopedia: {
         content: [
-          <div key="HGGGH^&*(((*">
+          <div key={CreateUniqueId()}>
             <b>Night-flying / Nightflyer</b>
             <br />
             "1. Lucid dreamer, who is aware they’re dreaming."
@@ -41,7 +41,7 @@ const LightBoxChars = (props) => {
         "These ancient natives, once a nation of powerful spellcasters and the great defenders against the Creeps, without whom, the Astral Skies would have fallen.",
       encyclopedia: {
         content: [
-          <i key="HJHJ&^&*">
+          <i key={CreateUniqueId()}>
             ‘...They did not always appear as they do now, over time their very
             forms have changed, embodying the carnival, and losing their powers,
             while gaining nothing but joy, love and gluttony.’
@@ -59,7 +59,7 @@ const LightBoxChars = (props) => {
         "These ancient natives, once a nation of powerful spellcasters and the great defenders against the Creeps, without whom, the Astral Skies would have fallen.",
       encyclopedia: {
         content: [
-          <i key="HJH^&%^$^*">
+          <i key={CreateUniqueId()}>
             ‘...the legend is that with an army of The Lost they were able to
             destroy the ancient city, nearly dragging the astral skies into the
             void…’
@@ -77,7 +77,7 @@ const LightBoxChars = (props) => {
         "They arose during the founding of Astra, a subculture with demi-god-like powers, only they have the power to overcome the Creeps and Lost, but were banished by the Astrains many moons agofor reasons that have been forgotten in time.",
       encyclopedia: {
         content: [
-          <i key="*(((()()*UUUI">
+          <i key={CreateUniqueId()}>
             ‘...theories abound that the Rogues were imprisoned Lost that were
             able to escape and come back from their spell, but are permanently
             altered, and will never fully trust the Astrians…’
@@ -95,7 +95,7 @@ const LightBoxChars = (props) => {
         "Extremely dangerous and impossible to defeat without teamwork, some roam the wilderness of the Astral Skies, unsure of where they have come from.",
       encyclopedia: {
         content: [
-          <i key="HHGH&**">
+          <i key={CreateUniqueId()}>
             ‘...Some fragments of their previous self remain, but without
             intervention, they remain under the curse…’
           </i>,

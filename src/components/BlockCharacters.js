@@ -6,7 +6,6 @@ import DividerBlock from "./DividerBlock";
 import ActionClick from "./ActionClick";
 
 const BlockCharacters = (props) => {
-  console.log(props);
   return (
     <div className="parallax_block z_index_base position_relative padding-top-med">
       <div id="CLASSES"></div>

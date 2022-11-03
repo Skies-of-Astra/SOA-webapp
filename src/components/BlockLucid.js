@@ -4,6 +4,7 @@ import Paragraph from "./Paragraph";
 import TitleH1 from "./TitleH1";
 import TitleH3 from "./TitleH3";
 import DividerBlock from "./DividerBlock";
+import ImgWrapper from "./ImgWrapper";
 
 const BlockLucid = (props) => {
   return (
@@ -33,13 +34,13 @@ const BlockLucid = (props) => {
             </div>
 
             <div className="flex_row margin-center flex-even position_relative">
-              <div className="lost_animation">
-                <img
-                  className="width-100"
-                  src="assets/img_lucid_lost.png"
-                  alt="The lost"
-                />
-              </div>
+              <ImgWrapper
+                tagID=""
+                cssClassDiv="lost_animation"
+                cssClassImg="width-100"
+                src="assets/img_lucid_lost.png"
+              />
+
               <div>
                 <TitleH3
                   cssClass="margin_bottom_2rem"

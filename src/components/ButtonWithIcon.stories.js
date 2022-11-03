@@ -1,6 +1,6 @@
 // YourComponent.stories.js|jsx
 
-import ButtonNav from "./ButtonNav";
+import ButtonWithIcon from "./ButtonWithIcon";
 
 //👇 This default export determines where your story goes in the story list
 export default {
@@ -8,17 +8,17 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: "Button nav",
-  component: ButtonNav,
+  title: "Button with icon",
+  component: ButtonWithIcon,
 };
 
 //👇 We create a “template” of how args map to rendering
-const Template = (args) => <ButtonNav {...args} />;
+const Template = (args) => <ButtonWithIcon {...args} />;
 
 export const Default = {
   args: {
-    cssClass: "",
-    label: "Home",
+    src: "assets/icon_twitter2.svg",
+    label: "Join the community",
     //👇 The args you need here will depend on your component
   },
 };

@@ -10,10 +10,10 @@ const BlockIntro = (props) => {
         label="Welcome to Skies of Astra"
       />
       <Paragraph cssClass="text_align_center margin-center margin_bottom_2rem max-width-870px">
-        <b key="bkey$%##">Skies of Astra </b>, "is a new wave Web3 Entertainment
-        Brand, that through the use of animated content & immersive VR, will
-        tell powerful stories with interactive worldbuilding to deliver a unique
-        form of Web3 storytelling."
+        <b>Skies of Astra</b> is a new wave Web3 Entertainment Brand, that
+        through the use of animated content & immersive VR, will tell powerful
+        stories with interactive worldbuilding to deliver a unique form of Web3
+        storytelling.
       </Paragraph>
     </div>
   );

@@ -10,10 +10,11 @@ import BlockWorld from "../components/BlockWorld";
 import BlockPartners from "../components/BlockPartners";
 import BlockTeam from "../components/BlockTeam";
 import BlockFooter from "../components/BlockFooter";
+import ImgWrapper from "../components/ImgWrapper";
 // import ButtonBackTop from "../components/ButtonBackTop";
 
 const Homepage = () => {
-  const [showCharBox, setShowCharBox] = useState(true);
+  const [showCharBox, setShowCharBox] = useState(false);
   const [charNum, setCharNum] = useState(0);
 
   const HideCharBox = () => {
@@ -35,6 +36,12 @@ const Homepage = () => {
       )}
       <div className="soa_block padding-bottom-large position_relative">
         <Nav />
+        <ImgWrapper
+          tagID=""
+          cssClassDiv="soa_logo"
+          cssClassImg=""
+          src="assets/soa_logo_3.png"
+        />
         <BlockIntro />
       </div>
       <BlockParallax />
