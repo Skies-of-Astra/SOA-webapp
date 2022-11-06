@@ -1,13 +1,30 @@
-import React from "react";
+import { useState } from "react";
 
 const ColorTile = (props) => {
+  const [showTip, setShowTip] = useState(false);
+  const copyToClip = () => {
+    setShowTip(true);
+    navigator.clipboard.writeText(props.color);
+    console.log("Colour copied");
+    setTimeout(() => {
+      setShowTip(false);
+    }, 1000);
+  };
   return (
-    <div className="flex_col">
+    <div className="grid_card">
       <div
-        className="color_tile"
+        onClick={copyToClip}
+        className="color_tile item-a"
         style={{ background: `${props.color}` }}
-      ></div>
-      <p>{props.children}</p>
+      >
+        {showTip ? (
+          <div className="tileTip">
+            <b>Copied!</b> {props.color}
+          </div>
+        ) : null}
+      </div>
+      <div className="item-c">{props.tokenId}</div>
+      <p className="item-b">{props.children}</p>
     </div>
   );
 };

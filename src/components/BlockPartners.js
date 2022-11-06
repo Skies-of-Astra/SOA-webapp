@@ -43,8 +43,8 @@ const BlockPartners = () => {
               Specialising in original content for animation/VFX and Live-action
               across commercials, trailers, XR and more.
             </Paragraph>
-            <Paragraph cssClass="margin_bottom_large animate_parallax">
-              At our heart, we're a group of passionate directors who&#39ve
+            <Paragraph cssClass="margin_bottom_med animate_parallax">
+              At our heart, we're a group of passionate directors who have
               earned a strong reputation for sharp, focused and compelling work,
               and believe in challenging tried and tested story conventions,
               always looking for interesting ways to excite and inspire with

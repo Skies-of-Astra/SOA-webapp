@@ -22,9 +22,17 @@ export default {
 //👇 We create a “template” of how args map to rendering
 const Template = (args) => <TitleH1 {...args} />;
 
-export const DefaultView = {
+export const Left = {
   args: {
     cssClass: "",
+    label: "Skies of Astra",
+    //👇 The args you need here will depend on your component
+  },
+};
+
+export const Center = {
+  args: {
+    cssClass: "text_align_center",
     label: "Skies of Astra",
     //👇 The args you need here will depend on your component
   },

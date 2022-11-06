@@ -19,17 +19,17 @@ const BlockWorld = () => {
             <div className="m-clear-padding flex_child_even">
               <Paragraph cssClass="margin_bottom_2rem">
                 <strong key="HBNBSKkjkj^&">The Astral Skies </strong>
-                "is a world where time no longer flows, at its frontier sits the
+                is a world where time no longer flows, at its frontier sits the
                 timeless city of Astra, where visiting Nightflyers can learn
                 about the Astral Skies and experience Astrian culture where you
                 will not only encounter other visiting Nightflyers but also the
                 crazy Astrian inhabitants living their unique lives, each with
-                their own stories to tell."
+                their own stories to tell.
               </Paragraph>
             </div>
           </div>
           <Button
-            cssClass="button_default button_theme margin-center display_block font_size_small button_hover"
+            cssClass="button_transition button_default button_theme margin-center display_block font_size_small button_hover"
             label="Explore the map >"
           />
         </div>

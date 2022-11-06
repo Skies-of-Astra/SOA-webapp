@@ -26,19 +26,19 @@ const CompLucidBackground = () => {
         tagID=""
         cssClassDiv="soa_cutout_img soa_cutout_right creep_translate_top"
         cssClassImg=""
-        src="img_lucid_creep_1.png"
+        src="assets/img_lucid_creep_1.png"
       />
       <ImgWrapper
         tagID=""
         cssClassDiv="soa_cutout_img soa_cutout_right creep_translate_middle"
         cssClassImg=""
-        src="img_lucid_creep_2.png"
+        src="assets/img_lucid_creep_2.png"
       />
       <ImgWrapper
         tagID=""
         cssClassDiv="soa_cutout_img soa_cutout_right"
         cssClassImg=""
-        src="img_lucid_creep_3.png"
+        src="assets/img_lucid_creep_3.png"
       />
     </>
   );
